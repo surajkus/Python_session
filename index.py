@@ -10,7 +10,7 @@ else:
     print("B is greater than A")    
 
 
-# # 2
+# # 2 check the gender and print hello sir and hello  maa'm
 c = str(input("Enter your Gender: "))
 
 if c=="male":
@@ -39,3 +39,13 @@ if num>18:
     print("You are eligible for vote")
 else:
     print("You are not eligible for vote")
+
+
+# (5) check the leap year not not...
+
+year = int(input("Enter years = "))
+if year%4==0:
+    print("THis is a leap years")
+
+else:
+    print("this is not a leap years")    
