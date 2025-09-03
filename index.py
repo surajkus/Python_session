@@ -13,7 +13,7 @@ else:
 # # 2 check the gender and print hello sir and hello  maa'm
 c = str(input("Enter your Gender: "))
 
-if c=="male":
+if c=="male" or c=="M":
     print("Hello sir good morning: ")
 elif c=="Female":
     print("Hello maam good morning: ")
@@ -44,8 +44,11 @@ else:
 # (5) check the leap year not not...
 
 year = int(input("Enter years = "))
-if year%4==0:
+if year%100==0 or year%400==0:
     print("THis is a leap years")
 
+elif year%100!=0 or year%400==0:
+    print("this is leap years")
+
 else:
-    print("this is not a leap years")    
+    print("this is  years")    
