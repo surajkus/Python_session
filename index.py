@@ -52,3 +52,28 @@ elif year%100!=0 or year%400==0:
 
 else:
     print("this is  years")    
+
+
+
+
+
+
+# 6. check the weather ;
+
+temp =int(input("Enter temperature"))
+if temp <=0:
+    print("freezing point🥶") 
+
+elif temp>=0 or temp<=10:
+    print("Very cold☃️")   
+     
+elif temp>=10 or temp<=20:
+    print("cold😰")  
+
+elif temp>=20 or temp<=30:
+    print("Pleasant🤧") 
+
+elif temp>=30 or temp<=40:
+    print("hot🔥")    
+elif  temp>=40:
+    print("very hot 🥵")    
