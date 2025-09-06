@@ -1,8 +1,2 @@
-a = 10
-# b = 30
-# if a>b:
-#     print("A is greater than B")
 
-# else:
-#     print("B is greater than A")    
-
+    print(2,"X",i,"=",i*2)
